@@ -10,14 +10,7 @@ public class hanoiRecursivoComPassos {
     }
 
     public static void steps(int n, int o, int d , int a){
-         if(n == 1){
-            System.out.printf(" %d <- %d\n", d, o );
-            return;
-         }
-
-         steps(n - 1, o, a, d);
-         steps( 1 , o , d ,a );
-         steps(n - 1, a, d, o);
+         c
         
     }
 
