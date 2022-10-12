@@ -25,7 +25,7 @@ public class Person {  // é o obj
     //representação em string do objeto
 
     public String toString(){
-        return this.getName() + ":" + this.age;
+        return this.getName() + this.getAge();
     }
     //operações
     String getName(){
